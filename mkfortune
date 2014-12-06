@@ -1,0 +1,7 @@
+#!/bin/bash
+# ts_mkweb
+# hollowaya
+echo $HDR > $HOME/public_html/fortune.html
+fortune >> $HOME/public_html/fortune.html
+echo $FTR >> $HOME/public_html/fortune.html
+#eof
