@@ -1,0 +1,14 @@
+#!/bin/bash
+#script 1
+#lab4
+clear
+echo -n "Enter your first name: "
+read NAME
+echo -n "Enter first number: "
+read NUM1
+echo -n "Enter second number: "
+read NUM2
+SUM1=$((NUM1+NUM2))
+echo "Your name is: "$NAME "And your sum is: " $SUM1
+echo "$(date +"%s") - Your name is: "$NAME "And your sum is: " $SUM1 >> script1.log
+#eof
