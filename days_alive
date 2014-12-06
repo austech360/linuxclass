@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+SDATE=$(date +%s)
+
+EDATE=$(date -d '07/20/1995' +%s)
+SALIVE=$(($SDATE - $EDATE))
+DALIVE=$(($SALIVE / 86400))
+echo "You have been alive " $DALIVE
